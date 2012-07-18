@@ -1,7 +1,10 @@
 FileInt
 
 Berechnet CRC32-Prüfsummen für Dateien
-Muss gegen WxWidgets 2.8 (http://www.wxwidgets.org/) gelinkt werden
+Wird normalerweise per registryeintrag im Kontextmenü von Dateien verankert.
+Der Dialog öffent sich dann und zeigt Dateigrösse, Fortschritt der 
+Prüfsummenbildung und im Anschluss die Prüfsumme selber.
+Muss gegen WxWidgets 2.8 (http://www.wxwidgets.org/) gelinkt werden.
 
 FileIntApp 
 stellt die Anwendung dar (WxWidgets-konvention)
